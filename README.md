@@ -16,7 +16,6 @@ First, install the dependencies for the entire monorepo:
 
 ```sh
 npm install
-npx lerna bootstrap
 npm run dev
 ```
 
