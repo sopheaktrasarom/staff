@@ -1,6 +1,6 @@
 # Staff Management
 
-This project is a monorepo that contains both a frontend and a backend application. The frontend is built with Next.js, and the backend is built with Express and TypeScript. The funtinalities are creating staff , reading staff , updating staff ,  deleteting staff, searching by Staff ID , searching for birthday by using DateRange Picker and searching by staff Gender.
+This project is a monorepo that contains both a frontend and a backend application. The frontend is built with Next.js with Typescript, and the backend is built with Express with TypeScript. The functionalities are creating staff , reading staff , updating staff ,  deleteting staff, searching by Staff ID , searching for birthday by using DateRange Picker and searching by staff Gender.
 
 ## Prerequisites
 
@@ -67,4 +67,4 @@ To build the entire application. start the development server with:
 
 ```sh
 
-npm build dev:
+npm run build
