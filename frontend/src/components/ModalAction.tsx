@@ -70,8 +70,8 @@ export default function ModalAction(props: IProps) {
         initialValues={{ remember: true }}
         onFinish={handleSubmit}
       >
-        <Form.Item<FieldType>
-          label="FullName"
+        <Form.Item
+          label="Full Name"
           name="fullName"
           rules={[{ required: true, message: "Please input Staff full name!" }]}
         >
