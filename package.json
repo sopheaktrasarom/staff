@@ -1,0 +1,29 @@
+{
+  "name": "staff",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"lerna run dev --scope frontend\" \"lerna run start --scope backend\"",
+    "dev:frontend": "lerna run dev --scope frontend",
+    "dev:backend": "lerna run start --scope backend",
+    "build": "lerna run build",
+    "start": "concurrently \"lerna run start --scope frontend\" \"lerna run serve --scope backend\"",
+    "build:frontend": "lerna run build --scope frontend",
+    "build:backend": "lerna run build --scope backend",
+    "serve:backend": "lerna run serve --scope backend",
+    "start:frontend": "lerna run start --scope frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "lerna": "^8.1.5",
+    "ts-node-dev": "^2.0.0"
+  }
+}
