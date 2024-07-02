@@ -63,13 +63,7 @@ export default function ModalAction(props: IProps) {
       footer={null}
       destroyOnClose={true}
     >
-      <Form
-        name="basic"
-        layout="vertical"
-        form={form}
-        initialValues={{ remember: true }}
-        onFinish={handleSubmit}
-      >
+      <Form name="basic" layout="vertical" form={form} onFinish={handleSubmit}>
         <Form.Item
           label="Full Name"
           name="fullName"
