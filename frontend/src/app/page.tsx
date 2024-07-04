@@ -221,7 +221,7 @@ export default function Page() {
           <Input
             placeholder="Search By Staff ID"
             onChange={(e) => {
-              setSearchId(e.currentTarget.value);
+              setSearchId(e.currentTarget.value?.trim());
             }}
           />
 
